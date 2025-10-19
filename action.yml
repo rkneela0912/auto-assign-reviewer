@@ -1,0 +1,12 @@
+name: 'auto assign reviewer'
+description: '👥 Intelligently assign reviewers based on file ownership'
+author: 'rkneela0912'
+inputs:
+  github_token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+branding:
+  icon: 'check'
+  color: 'blue'
